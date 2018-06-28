@@ -219,3 +219,4 @@ Inde i dit repository kan du evt. lave en ls, for at se hvilke filer der er deri
 [root@test webserver]# git pull origin master
 
 Hvis du vil pulle fra andre såkaldte "branchs" end "master", kan du gøre dette ved bare at skrive navnet på dit branch, i stedet for master.
+Du kan også nøjes med bare at skrive "git pull".
