@@ -204,7 +204,18 @@ Inde i vores nye mappe, vil vi nu lave en clone af vores repository. Dette gør 
 
 Den spørger så om du er sikker på, at du vil forbinde til GitHub, her skriver du bare "yes" og trykker Enter.
 
-Når det er gjort, kan du prøve at lave en ændring i dit repository, og så lave et pull, ved at skrive følgende:
+Når det er gjort, skulle du gerne kunne se dit repository i mappen, ved at skrive "ls" som står for "list", og giver dig en lille liste af de filer som er i den konkrete mappe. Det vil sige du skriver:
 
-[root@test www]# git pull git@github.com:brugernavn/repository
+[root@test www]# ls
 
+Når du har skrevet det, skulle du gerne se navnet på dit repository oppe over kommandolinjen.
+
+Du kan nu prøve at ændre i dit repository, og så lave et pull. For at lave et pull, skal du navigere ind i dit repository, ved hjælp af cd:
+
+[root@test www]# cd ditrepositorynavn
+
+Inde i dit repository kan du evt. lave en ls, for at se hvilke filer der er derinde. Når du har ændret i dit repository, og gerne vil lave et pull skal du skrive følgende:
+
+[root@test webserver]# git pull origin master
+
+Hvis du vil pulle fra andre såkaldte "branchs" end "master", kan du gøre dette ved bare at skrive navnet på dit branch, i stedet for master.
