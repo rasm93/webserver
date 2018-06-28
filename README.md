@@ -202,3 +202,9 @@ Inde i vores nye mappe, vil vi nu lave en clone af vores repository. Dette gør 
 
 [root@test www]# git clone git@github.com:brugernavn/repository
 
+Den spørger så om du er sikker på, at du vil forbinde til GitHub, her skriver du bare "yes" og trykker Enter.
+
+Når det er gjort, kan du prøve at lave en ændring i dit repository, og så lave et pull, ved at skrive følgende:
+
+[root@test www]# git pull git@github.com:brugernavn/repository
+
